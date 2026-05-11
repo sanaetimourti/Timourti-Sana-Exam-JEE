@@ -1,10 +1,10 @@
 package org.sid.timourtisana.examjeetimourtisana.entities;
 import javax.persistence.*;
-
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
+import org.sid.timourtisana.examjeetimourtisana.enums.StatutVehicule;
 import org.springframework.data.annotation.Id;
 
 import java.time.LocalDate;
@@ -40,4 +40,3 @@ import java.util.List;
         @OneToMany(mappedBy = "vehicule", cascade = CascadeType.ALL)
         private List<Location> locations;
     }
-}
