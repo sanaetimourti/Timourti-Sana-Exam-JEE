@@ -1,5 +1,6 @@
 package org.sid.timourtisana.examjeetimourtisana.repositories;
 import org.sid.timourtisana.examjeetimourtisana.entities.Voiture;
+import org.sid.timourtisana.examjeetimourtisana.enums.TypeCarburant;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;

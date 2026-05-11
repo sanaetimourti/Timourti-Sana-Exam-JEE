@@ -1,7 +1,7 @@
 package org.sid.timourtisana.examjeetimourtisana.dto;
 import lombok.Data;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
+//import jakarta.validation.constraints.NotBlank;
+//import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 @Data

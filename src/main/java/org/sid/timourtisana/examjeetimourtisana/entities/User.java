@@ -1,15 +1,16 @@
 package org.sid.timourtisana.examjeetimourtisana.entities;
-import jakarta.persistence.*;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
-import org.springframework.data.annotation.Id;
 
+import jakarta.persistence.*;
+
+import jakarta.persistence.*;
+import lombok.*;
+import org.springframework.data.annotation.Id;
 @Entity
 @Table(name = "users")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder  // ← AJOUTER CETTE ANNOTATION
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,7 +20,6 @@ public class User {
     private String username;
 
     private String password;
-
     private String email;
 
     @Enumerated(EnumType.STRING)

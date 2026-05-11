@@ -1,7 +1,7 @@
 package org.sid.timourtisana.examjeetimourtisana.mappers;
-import com.votre_nom.exam.dto.AgenceDTO;
-import com.votre_nom.exam.entities.Agence;
-import com.votre_nom.exam.entities.Vehicule;
+import org.sid.timourtisana.examjeetimourtisana.dto.AgenceDTO;
+import org.sid.timourtisana.examjeetimourtisana.entities.Agence;
+import org.sid.timourtisana.examjeetimourtisana.entities.Vehicule;
 import org.springframework.stereotype.Component;
 import java.util.stream.Collectors;
 

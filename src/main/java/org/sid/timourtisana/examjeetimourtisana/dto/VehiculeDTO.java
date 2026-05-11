@@ -1,9 +1,11 @@
 package org.sid.timourtisana.examjeetimourtisana.dto;
 import lombok.Data;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Positive;
+
 import java.time.LocalDate;
+//import javax.validation.constraints.NotBlank;
+//import javax.validation.constraints.NotNull;
+//import javax.validation.constraints.Positive;
+//import java.time.LocalDate;
 
 @Data
 public class VehiculeDTO {

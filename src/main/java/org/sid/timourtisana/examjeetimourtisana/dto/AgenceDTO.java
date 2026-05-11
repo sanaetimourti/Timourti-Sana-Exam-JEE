@@ -1,7 +1,7 @@
 package org.sid.timourtisana.examjeetimourtisana.dto;
 import lombok.Data;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Pattern;
+//import javax.validation.constraints.NotBlank;
+//import javax.validation.constraints.Pattern;
 
 @Data
 public class AgenceDTO {

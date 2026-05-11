@@ -1,13 +1,14 @@
 package org.sid.timourtisana.examjeetimourtisana.services;
-import com.votre_nom.exam.dto.LocationDTO;
-import com.votre_nom.exam.dto.StatistiqueDTO;
-import com.votre_nom.exam.entities.Location;
-import com.votre_nom.exam.entities.Vehicule;
-import com.votre_nom.exam.enums.StatutVehicule;
-import com.votre_nom.exam.mapper.LocationMapper;
-import com.votre_nom.exam.repositories.LocationRepository;
-import com.votre_nom.exam.repositories.VehiculeRepository;
-import com.votre_nom.exam.service.LocationService;
+package org.sid.timourtisana.examjeetimourtisana.services;
+
+import org.sid.timourtisana.examjeetimourtisana.dto.LocationDTO;
+import org.sid.timourtisana.examjeetimourtisana.entities.Location;
+import org.sid.timourtisana.examjeetimourtisana.entities.Vehicule;
+import org.sid.timourtisana.examjeetimourtisana.enums.StatutVehicule;
+//import org.sid.timourtisana.examjeetimourtisana.mappers.LocationMapper;
+import org.sid.timourtisana.examjeetimourtisana.repositories.LocationRepository;
+import org.sid.timourtisana.examjeetimourtisana.repositories.VehiculeRepository;
+import org.sid.timourtisana.examjeetimourtisana.services.LocationService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

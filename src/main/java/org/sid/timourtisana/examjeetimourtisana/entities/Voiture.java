@@ -1,5 +1,5 @@
 package org.sid.timourtisana.examjeetimourtisana.entities;
-import javax.persistence.*;
+import jakarta.persistence.*;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import org.sid.timourtisana.examjeetimourtisana.enums.TypeCarburant;

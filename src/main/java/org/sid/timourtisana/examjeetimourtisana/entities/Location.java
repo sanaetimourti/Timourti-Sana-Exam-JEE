@@ -1,5 +1,5 @@
 package org.sid.timourtisana.examjeetimourtisana.entities;
-import javax.persistence.*;
+import jakarta.persistence.*;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;

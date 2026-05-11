@@ -12,11 +12,6 @@ public interface AgenceService {
     // Recherche
     List<AgenceDTO> getAgencesByVille(String ville);
     List<AgenceDTO> searchAgences(String keyword);
-
-    // Statistiques
-    StatistiqueDTO getStatistiquesAgence(Long agenceId);
-    Long getNombreVehiculesDisponibles(Long agenceId);
-
     // Vérifications
     boolean existsByNom(String nom);
     boolean hasVehiculesDisponibles(Long agenceId);

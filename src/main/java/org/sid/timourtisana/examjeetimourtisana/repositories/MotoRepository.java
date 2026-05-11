@@ -1,5 +1,5 @@
 package org.sid.timourtisana.examjeetimourtisana.repositories;
-import com.votre_nom.exam.enums.TypeMoto;
+import org.sid.timourtisana.examjeetimourtisana.enums.TypeMoto;
 import org.sid.timourtisana.examjeetimourtisana.entities.Moto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
